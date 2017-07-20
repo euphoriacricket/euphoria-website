@@ -1,0 +1,25 @@
+{
+	"name": "euphoria",
+	"version": "1.0.0",
+	"description": "ECC website",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/euphoriacricket/euphoria-website.git"
+	},
+	"author": "shyam vadeyar",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/euphoriacricket/euphoria-website/issues"
+	},
+	"homepage": "https://github.com/euphoriacricket/euphoria-website#readme",
+	"dependencies": {
+		"express": "^4.15.2",
+		"mongodb": "^2.2.26"
+	},
+	"devDependencies": {}
+}
