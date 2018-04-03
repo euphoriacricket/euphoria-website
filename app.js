@@ -2,7 +2,8 @@ var express = require('express');
 
 var app = express();
 
-var port = process.env.PORT || 80;
+var port = process.env.PORT;
+// port = 5000;          // Uncomment this line when testing locally
 
 app.use(express.static('public'));
 app.use(express.static('src/views'));
